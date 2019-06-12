@@ -1,0 +1,31 @@
+body {
+    width: 960px;
+    margin-left: 300px;
+    background-color: 
+
+}
+
+header {
+    width: 70%;
+}
+
+.name { 
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    width: 150px;
+}
+
+.contact {
+    float: right;
+}
+
+.potfolio {
+    float: right;
+
+}
+
+.about {
+    float: right;
+}
