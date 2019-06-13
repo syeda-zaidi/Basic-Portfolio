@@ -1,20 +1,17 @@
 
-body {
-
-
-}
 
 header { 
-    border-bottom: 5px solid grey;
+    border-bottom: 2px solid #cccccc;
     width: 100%;
     background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 
 
 .name { 
-    padding: 20px;
+    padding: 30px;
     background-color: #4aaaa5;
     color: white;
     font-size: 24px;
@@ -28,32 +25,56 @@ header {
     position: absolute;
     right: 0%;
     top:40px;
+    margin-right: 220px;
+    color: #777777;
 }
 
 .about {
     float: left;
     padding: 10px;
-    border-right: #777777;
-    border-width: 5px;
+    border-right: 1px solid #cccccc;
 }
 
 .portfolio {
     float: left;
     padding: 10px;
-    border-right: #777777;
-    border-width: 5px;
-
+    border-right: 1px solid #cccccc;
 
 }
 
 .contact {
     float: left;
     padding: 10px;
+
 }
 
 .aboutme {
     width: 960px;
     margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+    text-align: justify;
+    
 }
 
 footer {
@@ -62,7 +83,7 @@ footer {
     left: 0;
     bottom: 0;
     background-color: #666666;
-    color: white;
+    color: #cccccc;
     width: 100%;
     text-align: center;
     border-top: 5px solid #4aaaa5; 
