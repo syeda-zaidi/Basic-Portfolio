@@ -20,6 +20,11 @@ header {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
 .tags { 
     float: right;
     position: absolute;
@@ -27,6 +32,7 @@ header {
     top:40px;
     margin-right: 220px;
     color: #777777;
+    
 }
 
 .about {
