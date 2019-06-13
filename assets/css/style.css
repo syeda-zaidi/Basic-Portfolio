@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    width: 70%;
 }
 
 .name { 
@@ -17,15 +16,31 @@ header {
     width: 150px;
 }
 
-.contact {
-    float: right;
-}
-
-.potfolio {
-    float: right;
-
+.tags {
+    width: 
 }
 
 .about {
     float: right;
+    padding: 10px;
+    border-right: #777777;
+    border-width: 5px;
+}
+
+.portfolio {
+    float: right;
+    padding: 10px;
+    border-right: #777777;
+    border-width: 5px;
+
+
+}
+
+.contact {
+    float: right;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
 }
