@@ -5,6 +5,7 @@ header {
     width: 100%;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
 
 }
 
@@ -13,11 +14,12 @@ header {
 .name { 
     padding: 30px;
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     font-size: 24px;
-    width: 150px;
+    width: 200px;
     margin-left: 300px;
     position: relative;
+    font-weight: bold;
 }
 
 .tags { 
@@ -46,6 +48,12 @@ header {
     float: left;
     padding: 10px;
 
+}
+
+.mainbody {
+    margin: 0%;
+    padding: 0%;
+    background-color: #dddddd; 
 }
 
 .aboutme {
