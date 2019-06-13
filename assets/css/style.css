@@ -1,12 +1,17 @@
+
 body {
-    width: 960px;
-    margin-left: 300px;
-    background-color: 
+
 
 }
 
-header {
+header { 
+    border-bottom: 5px solid grey;
+    width: 100%;
+    background-color: white;
+
 }
+
+
 
 .name { 
     padding: 20px;
@@ -14,21 +19,26 @@ header {
     color: white;
     font-size: 24px;
     width: 150px;
+    margin-left: 300px;
+    position: relative;
 }
 
-.tags {
-    width: 
+.tags { 
+    float: right;
+    position: absolute;
+    right: 0%;
+    top:40px;
 }
 
 .about {
-    float: right;
+    float: left;
     padding: 10px;
     border-right: #777777;
     border-width: 5px;
 }
 
 .portfolio {
-    float: right;
+    float: left;
     padding: 10px;
     border-right: #777777;
     border-width: 5px;
@@ -37,10 +47,23 @@ header {
 }
 
 .contact {
-    float: right;
+    float: left;
     padding: 10px;
+}
+
+.aboutme {
+    width: 960px;
+    margin-left: 300px;
 }
 
 footer {
     clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #666666;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid #4aaaa5; 
 }
