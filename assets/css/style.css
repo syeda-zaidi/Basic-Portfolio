@@ -30,7 +30,7 @@ a {
     position: absolute;
     right: 0;
     top: 40px;
-    margin-right: 270px;
+    margin-right: 310px;
 
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .aboutme {
-    width: 960px;
+    width: 930px;
     text-align: justify;
     border: 2px solid #dddddd;
     background-color: #ffffff;
@@ -75,9 +75,11 @@ body {
 .contact {
     background-color: #ffffff;
     padding: 20px;
-    width: 960px;
+    width: 930px;
     height: 450px;
 }
+
+
 
 .boxheadings {
     font-family: Arial, Helvetica, sans-serif;
@@ -121,7 +123,8 @@ body {
     width: 60px;
     padding: 5px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 110px;
+    margin-left: 20px,
 }
 
 .h1aboutme {
@@ -151,8 +154,10 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
-
-
+.portfolio {
+    background-color: #ffffff;
+    padding: 20px;
+}
 
 
 
