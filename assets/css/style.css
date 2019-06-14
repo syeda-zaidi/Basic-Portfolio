@@ -1,3 +1,4 @@
+/* header styling*/
 header {
     width: 100%;
     background-color: white;
@@ -51,6 +52,7 @@ a {
     padding: 10px;
 }
 
+/* body for all pages*/
 body {
     clear: both;
     width: 100%;
@@ -64,6 +66,7 @@ body {
     padding: 20px;
 }
 
+/* about page styling */
 .aboutme {
     width: 930px;
     text-align: justify;
@@ -72,6 +75,25 @@ body {
     padding: 20px;
 }
 
+.h1aboutme {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.biopic {
+    float: left;
+    margin-right: 20px;
+}
+
+p { 
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+}
+
+
+/* contact page styling */
 .contact {
     background-color: #ffffff;
     padding: 20px;
@@ -79,7 +101,10 @@ body {
     height: 450px;
 }
 
-
+.h1contact {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .boxheadings {
     font-family: Arial, Helvetica, sans-serif;
@@ -127,28 +152,7 @@ body {
     margin-left: 20px,
 }
 
-.h1aboutme {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.biopic {
-    float: left;
-    margin-right: 20px;
-}
-
-p { 
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    line-height: 30px;
-}
-
-.h1contact {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
+/* portfolio page styling */
 .h1portfolio {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;  
@@ -196,6 +200,7 @@ p {
 .container4 {
     float: left;
 }
+
 
 footer {
     position: fixed;
