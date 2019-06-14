@@ -157,9 +157,45 @@ p {
 .portfolio {
     background-color: #ffffff;
     padding: 20px;
+    height: 440px;
+    margin-bottom: 20px;
 }
 
+.container {
+    position: relative;
+}
 
+.imagetext {
+    position: absolute;
+    bottom: 10px;
+    width: 180px;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container1 {
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.container2 {
+    float: left;
+}
+
+.container3 {
+    clear: both;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.container4 {
+    float: left;
+}
 
 footer {
     position: fixed;
